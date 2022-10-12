@@ -17,6 +17,7 @@ function Slider(props) {
         }}
         spaceBetween={50}
         slidesPerView={1}
+        className="swiper-customs-height"
       >
         <SwiperSlide>
           <div className="grid grid-cols-2 gap-[3rem] pt-[9rem] h-[627px]">
