@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   const headerRef = useRef(null);
@@ -20,14 +21,17 @@ function Header(props) {
       ref={headerRef}
     >
       <div className="containers flex items-center h-[100%]">
-        <div className="flex">
-          <img
-            src={require("../../assets/img/logo.png")}
-            alt="logo"
-            className="w-[20px] h-[20px]"
-          />
-          <h1 className="text-primary  font-medium ml-[0.5rem]">Halloween</h1>
-        </div>
+        <Link to="/">
+          <div className="flex">
+            <img
+              src={require("../../assets/img/logo.png")}
+              alt="logo"
+              className="w-[20px] h-[20px]"
+            />
+            <h1 className="text-primary  font-medium ml-[0.5rem]">Halloween</h1>
+          </div>
+        </Link>
+
         <ul className="text-primary ml-[auto] flex justify-center gap-x-[3rem]">
           <li>
             <a href="/" className="">
@@ -52,7 +56,7 @@ function Header(props) {
           <li>
             <a
               href="/"
-              className="py-[0.75rem] px-[1.5rem] border-[2px] border-white rounded-[3rem]"
+              className="py-[0.75rem] px-[1.5rem] border-[2px] border-white rounded-[3rem] font-medium"
             >
               Support
             </a>

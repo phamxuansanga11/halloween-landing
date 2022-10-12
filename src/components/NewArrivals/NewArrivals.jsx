@@ -37,7 +37,7 @@ function NewArrivals(props) {
                 </span>
               </div>
               <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-                <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+                <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
               </div>
             </div>
           </SwiperSlide>
@@ -66,7 +66,7 @@ function NewArrivals(props) {
                 </span>
               </div>
               <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-                <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+                <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
               </div>
             </div>
           </SwiperSlide>
@@ -95,7 +95,7 @@ function NewArrivals(props) {
                 </span>
               </div>
               <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-                <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+                <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
               </div>
             </div>
           </SwiperSlide>
@@ -122,7 +122,7 @@ function NewArrivals(props) {
                 </span>
               </div>
               <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-                <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+                <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
               </div>
             </div>
           </SwiperSlide>
@@ -149,7 +149,7 @@ function NewArrivals(props) {
                 </span>
               </div>
               <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-                <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+                <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
               </div>
             </div>
           </SwiperSlide>
@@ -176,7 +176,7 @@ function NewArrivals(props) {
                 </span>
               </div>
               <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-                <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+                <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
               </div>
             </div>
           </SwiperSlide>

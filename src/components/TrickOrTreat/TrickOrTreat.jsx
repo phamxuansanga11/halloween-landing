@@ -18,7 +18,7 @@ function TrickOrTreat(props) {
             <p className="text-[0.813rem] mb-[0.5rem] text-[#ccc]">Candy</p>
             <p className="text-[#ffffff] font-medium text-[1rem]">$11.99</p>
             <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-              <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+              <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
             </div>
           </div>
           <div className="group relative overflow-hidden flex flex-col items-center pt-[2rem] pb-[1rem] rounded-[1.5rem] container-color">
@@ -31,7 +31,7 @@ function TrickOrTreat(props) {
             <p className="text-[0.813rem] mb-[0.5rem] text-[#ccc]">Accessory</p>
             <p className="text-[#ffffff] font-medium text-[1rem]">$8.99</p>
             <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-              <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+              <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
             </div>
           </div>
           <div className="group relative overflow-hidden flex flex-col items-center pt-[2rem] pb-[1rem] rounded-[1.5rem] container-color">
@@ -44,7 +44,7 @@ function TrickOrTreat(props) {
             <p className="text-[0.813rem] mb-[0.5rem] text-[#ccc]">Accessory</p>
             <p className="text-[#ffffff] font-medium text-[1rem]">$15.99</p>
             <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-              <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+              <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
             </div>
           </div>
           <div className="group relative overflow-hidden flex flex-col items-center pt-[2rem] pb-[1rem] rounded-[1.5rem] container-color">
@@ -59,7 +59,7 @@ function TrickOrTreat(props) {
             <p className="text-[0.813rem] mb-[0.5rem] text-[#ccc]">Candy</p>
             <p className="text-[#ffffff] font-medium text-[1rem]">$7.99</p>
             <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-              <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+              <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
             </div>
           </div>
           <div className="group relative overflow-hidden flex flex-col items-center pt-[2rem] pb-[1rem] rounded-[1.5rem] container-color">
@@ -72,7 +72,7 @@ function TrickOrTreat(props) {
             <p className="text-[0.813rem] mb-[0.5rem] text-[#ccc]">Candy</p>
             <p className="text-[#ffffff] font-medium text-[1rem]">$19.99</p>
             <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-              <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+              <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
             </div>
           </div>
           <div className="group relative overflow-hidden flex flex-col items-center pt-[2rem] pb-[1rem] rounded-[1.5rem] container-color hover:">
@@ -85,7 +85,7 @@ function TrickOrTreat(props) {
             <p className="text-[0.813rem] mb-[0.5rem] text-[#ccc]">Accessory</p>
             <p className="text-[#ffffff] font-medium text-[1rem]">$17.99</p>
             <div className="h-[36px] w-[36px] cursor-pointer bg-[#f4511f] flex justify-center items-center rounded-[0.25rem] right-[-100px] absolute bottom-[0px] group-hover:right-[-1px] group-hover:bottom-[0px] group-hover:duration-[0.3s] duration-[0.3s]">
-              <i class="fa-solid fa-cart-shopping text-[#fff]"></i>
+              <i className="fa-solid fa-cart-shopping text-[#fff]"></i>
             </div>
           </div>
         </div>

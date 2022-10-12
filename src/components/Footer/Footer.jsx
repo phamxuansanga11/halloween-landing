@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <footer className="relative pt-[7rem] pb-[2rem]">
+    <footer className="relative pt-[7rem] pb-[2rem] overflow-hidden">
       <img
         className="w-[100px] absolute top-[6rem] right-[-2rem] xl:w-[120px]"
         src={require("../../assets/img/footer1-img.png")}
