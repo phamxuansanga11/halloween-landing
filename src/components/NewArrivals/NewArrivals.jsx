@@ -4,9 +4,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-function NewArrivals(props) {
+function NewArrivals({ newRef }) {
   return (
-    <section className="section__new-arrivals pt-[7rem] pb-[2rem]">
+    <section className="section__new-arrivals pt-[7rem] pb-[2rem]" ref={newRef}>
       <div className="containers">
         <h2 className="text-[2.25rem] mb-[3rem] text-white font-semibold text-center">
           New Arrivals
