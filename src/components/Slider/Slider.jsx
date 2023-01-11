@@ -123,7 +123,7 @@ function Slider(props) {
                   The Living Pumpkin
                 </span>
               </div>
-              <div className="line__white  absolute bottom-[15%] left-[45%]"></div>
+              <div className="line__white absolute bottom-[15%] left-[45%]"></div>
             </div>
             <div>
               <h2 className="text-primary text-[1.25rem] uppercase font-semibold mb-[1rem]">
