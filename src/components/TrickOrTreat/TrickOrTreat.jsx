@@ -1,8 +1,11 @@
 import React from "react";
 
-function TrickOrTreat(props) {
+function TrickOrTreat({ candyRef }) {
   return (
-    <section className="section__trickortreat pt-[7rem] pb-[2rem]">
+    <section
+      className="section__trickortreat pt-[7rem] pb-[2rem]"
+      ref={candyRef}
+    >
       <div className="containers">
         <h2 className="text-center text-white mb-[3rem] text-[2.25rem] font-semibold">
           Trick Or Treat

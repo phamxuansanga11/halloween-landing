@@ -1,8 +1,11 @@
 import React from "react";
 
-function OurNewsletter(props) {
+function OurNewsletter({ supportRef }) {
   return (
-    <section className="section__our-newsletter pt-[7rem] pb-[2rem]">
+    <section
+      className="section__our-newsletter pt-[7rem] pb-[2rem]"
+      ref={supportRef}
+    >
       <div className="containers">
         <div className="grid grid-cols-[.5fr] justify-center">
           <h2 className="text-[2.25rem] mb-[3rem] text-white font-semibold text-center">

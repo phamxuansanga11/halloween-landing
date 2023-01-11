@@ -1,8 +1,11 @@
 import React from "react";
 
-function AboutHalloween(props) {
+function AboutHalloween({ aboutRef }) {
   return (
-    <section className="section__abouthalloween pt-[7rem] pb-[2rem]">
+    <section
+      className="section__abouthalloween pt-[7rem] pb-[2rem]"
+      ref={aboutRef}
+    >
       <div className="containers">
         <div className="grid grid-cols-2 gap-[7rem]">
           <div>

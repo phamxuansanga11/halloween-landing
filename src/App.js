@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import AboutHalloween from "./components/AboutHalloween/AboutHalloween";
 import BtnBackToTop from "./components/BtnBackToTop/BtnBackToTop";
 import Discount from "./components/Discount/Discount";
@@ -11,6 +11,11 @@ import Slider from "./components/Slider/Slider";
 import TrickOrTreat from "./components/TrickOrTreat/TrickOrTreat";
 
 function App() {
+  const sliderRef = useRef(null);
+  const aboutRef = useRef(null);
+  const candyRef = useRef(null);
+  const newRef = useRef(null);
+  const supportRef = useRef(null);
   const [isShowBtnBackToTop, setIsShowBtnBackToTop] = useState(false);
   useEffect(() => {
     let positionScroll;
@@ -25,14 +30,20 @@ function App() {
   });
   return (
     <>
-      <Header />
-      <Slider />
+      <Header
+        sliderRef={sliderRef}
+        aboutRef={aboutRef}
+        candyRef={candyRef}
+        newRef={newRef}
+        supportRef={supportRef}
+      />
+      <Slider sliderRef={sliderRef} />
       <Favorite />
-      <AboutHalloween />
-      <TrickOrTreat />
+      <AboutHalloween aboutRef={aboutRef} />
+      <TrickOrTreat candyRef={candyRef} />
       <Discount />
-      <NewArrivals />
-      <OurNewsletter />
+      <NewArrivals newRef={newRef} />
+      <OurNewsletter supportRef={supportRef} />
       {isShowBtnBackToTop && <BtnBackToTop />}
       <Footer />
     </>
