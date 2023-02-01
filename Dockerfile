@@ -6,7 +6,6 @@ RUN npm install
 RUN npm install tailwindcss
 RUN npm rebuild node-sass
 RUN npm run build
-## các bạn có thể dùng yarn install .... tuỳ nhu cầu nhé
 
 # production stage
 FROM nginx:1.17-alpine as production-stage
